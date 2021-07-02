@@ -1,6 +1,6 @@
 var URL = 'https://sheetdb.io/api/v1/yz1twbdlkr3h9';
 
-export const postProduct = (productName, productValue, productQuantidade) => {
+export const postProduct = (productName, productValue, productQtd) => {
   try {
     fetch(URL, {
       method: 'POST',
@@ -12,7 +12,7 @@ export const postProduct = (productName, productValue, productQuantidade) => {
         'data': {
           produto: productName,
           valor: productValue,
-          quantidade: productQuantidade,
+          quantidade: productQtd,
         }
       })
     })
