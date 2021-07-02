@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.css">
+  <title>CRUD - ADICIONAR PRODUTO</title>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="#">Adicionar produto</a>
+      </li>
+      <li>
+        <a href="./estoque.html">Estoque de produto</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="content">
+    <form class="form">
+      <div class="form__wrapper">
+        <label for="">Nome do produto</label>
+        <input type="text" id="product_name" placeholder="Nome do produto">
+      </div>
+      <div class="form__wrapper">
+        <label for="">Valor do produto</label>
+        <input type="text" id="product_value" placeholder="Valor do produto">
+      </div>
+      <div class="form__wrapper">
+        <label for="">Quantidade do produto</label>
+        <input type="text" id="product_qtd" placeholder="Quantidade do produto">
+      </div>
+      <input class="btn" type="submit" value="Adicionar">
+    </form>
+  </section>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
