@@ -17,7 +17,6 @@ const saveProduct = () => {
   }
   postProduct(product.nameProduct, product.valueProduct, product.qtdProduct);
   clearInputs()
-  getProduct()
 }
 
 // Limpa os inputs
